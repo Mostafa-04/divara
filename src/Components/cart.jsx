@@ -164,7 +164,7 @@ export default function Cart() {
     return (
         <>
             <Navbar />
-            <div className="min-h-screen bg-[#FCF8F1] py-3">
+            <div className="min-h-screen bg-[#FCF8F1] py-22">
 
                 {/* =====================================================
                     HEADER
