@@ -259,7 +259,7 @@ export default function Navbar() {
 
                             {/* Notre histoire */}
                             <Link
-                                to="/about"
+                                to="#about"
                                 className={`
                                     group relative px-4 py-2 text-[9px] font-medium uppercase tracking-[0.2em] transition-all duration-300
                                     ${isActive('/about') 
@@ -275,23 +275,6 @@ export default function Navbar() {
                                 `} />
                             </Link>
 
-                            {/* Contact */}
-                            <Link
-                                to="/contact"
-                                className={`
-                                    group relative px-4 py-2 text-[9px] font-medium uppercase tracking-[0.2em] transition-all duration-300
-                                    ${isActive('/contact') 
-                                        ? "text-[#B58A3A]" 
-                                        : "text-[#211B16] hover:text-[#B58A3A]"
-                                    }
-                                `}
-                            >
-                                Contact
-                                <span className={`
-                                    absolute bottom-0 left-1/2 h-[2px] w-0 -translate-x-1/2 bg-[#B58A3A] transition-all duration-300 group-hover:w-8
-                                    ${isActive('/contact') ? "w-8" : "w-0"}
-                                `} />
-                            </Link>
                         </div>
                     </div>
 
@@ -353,7 +336,7 @@ export default function Navbar() {
                         {[
                             { path: "/", label: "Accueil", number: "01" },
                             { path: "/shop", label: "Collection", number: "02", hasSubmenu: true },
-                            { path: "/about", label: "Notre histoire", number: "03" },
+                            { path: "#about", label: "Notre histoire", number: "03" },
                         ].map((item) => (
                             <div key={item.path}>
                                 {item.hasSubmenu ? (

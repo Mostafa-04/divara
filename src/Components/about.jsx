@@ -10,12 +10,12 @@ import {
 
 export default function About() {
     return (
-        <main className="bg-[#FCF8F1] text-[#211B16] overflow-x-hidden py-3">
+        <main  className="bg-[#FCF8F1] text-[#211B16] overflow-x-hidden py-3">
 
             {/* =====================================================
                 HERO - avec animation d'entrée
             ====================================================== */}
-            <section className="relative overflow-hidden border-b border-[#B58A3A]/15">
+            <section id="about" className="relative overflow-hidden border-b border-[#B58A3A]/15">
                 
                 {/* Décorations de fond animées */}
                 <div className="absolute -top-40 -right-40 h-96 w-96 rounded-full bg-[#B58A3A]/5 blur-3xl animate-pulse" />
