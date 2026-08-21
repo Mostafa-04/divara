@@ -195,7 +195,7 @@ export default function Show() {
     return (
         <>
             <Navbar />
-            <div className="min-h-screen bg-[#FCF8F1] text-[#211B16] py-3">
+            <div className="min-h-screen bg-[#FCF8F1] text-[#211B16] py-22">
 
                 {/* =====================================================
                     TOP
