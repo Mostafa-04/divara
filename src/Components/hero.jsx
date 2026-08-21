@@ -3,7 +3,7 @@ import { ArrowRight, Sparkles, ChevronDown, Zap } from "lucide-react";
 
 export default function Hero() {
     return (
-        <section className="relative min-h-[calc(100vh-80px)] overflow-hidden bg-[#F7F0E4] text-[#211B16]">
+        <section className="relative min-h-[calc(100vh-80px)] overflow-hidden bg-[#F7F0E4] text-[#211B16] py-3">
 
             {/* =====================================================
                 FOND ANIMÉ

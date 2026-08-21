@@ -10,7 +10,7 @@ import {
 
 export default function About() {
     return (
-        <main className="bg-[#FCF8F1] text-[#211B16] overflow-x-hidden">
+        <main className="bg-[#FCF8F1] text-[#211B16] overflow-x-hidden py-3">
 
             {/* =====================================================
                 HERO - avec animation d'entrée

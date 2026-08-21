@@ -61,7 +61,7 @@ export default function OrderSuccess() {
     return (
         <>
             <Navbar />
-            <div className="min-h-screen bg-[#FCF8F1] text-[#211B16]">
+            <div className="min-h-screen bg-[#FCF8F1] text-[#211B16] py-3">
 
                 <main className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-20">
 

@@ -95,7 +95,7 @@ export default function ProductsIndex() {
             {/* =====================================================
                 HEADER - avec animation
             ====================================================== */}
-            <section className="relative border-b border-[#B58A3A]/15 overflow-hidden">
+            <section className="relative border-b border-[#B58A3A]/15 overflow-hidden py-3">
                 
                 {/* Fond décoratif */}
                 <div className="absolute inset-0 pointer-events-none">

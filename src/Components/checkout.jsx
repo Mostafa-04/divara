@@ -172,7 +172,7 @@ export default function Checkout() {
     */
     if (!cart.length) {
         return (
-            <div className="min-h-screen bg-[#FCF8F1]">
+            <div className="min-h-screen bg-[#FCF8F1] py-3">
                 <Navbar />
                 <main className="mx-auto max-w-3xl px-5 py-24 text-center animate-fade-in-up">
                     <div className="mx-auto relative">

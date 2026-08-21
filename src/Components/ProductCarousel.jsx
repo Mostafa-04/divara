@@ -103,7 +103,7 @@ export default function ProductCarousel({
     }, []);
 
     return (
-        <section className="relative overflow-hidden py-12 sm:py-16 lg:py-20 xl:py-24">
+        <section className="relative overflow-hidden py-12 sm:py-16 lg:py-20 xl:py-24 ">
             {/* Fond décoratif */}
             <div className="pointer-events-none absolute inset-0">
                 <div className="absolute -right-40 -top-40 h-96 w-96 rounded-full bg-[#B58A3A]/5 blur-3xl" />

@@ -81,7 +81,7 @@ export default function Femme({
     }
 
     return (
-        <div className="min-h-screen bg-[#FCF8F1] text-[#211B16]">
+        <div className="min-h-screen bg-[#FCF8F1] text-[#211B16] py-3">
 
             <Navbar />
 
